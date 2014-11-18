@@ -24,7 +24,7 @@ public class DeviceController {
 	/*----------- constructor -----------*/
 	public DeviceController(Context _mContext) {
 		mContext = _mContext;
-		mWifi = (WifiManager) mContext.getSystemService (Context.WIFI_SERVICE);
+		mWifi = (WifiManager) mContext.getSystemService(Context.WIFI_SERVICE);
 		gpsSetting = null;
 		mBluetooth = BluetoothAdapter.getDefaultAdapter();
 		mNetwork = (ConnectivityManager) mContext.getSystemService(Context.CONNECTIVITY_SERVICE);

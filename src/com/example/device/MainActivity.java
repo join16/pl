@@ -6,7 +6,6 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-
 import com.example.devicecontroller.DeviceController;
 
 public class MainActivity extends ActionBarActivity {
